@@ -1,0 +1,18 @@
+program prosedure;
+uses crt;
+      procedure dolarkurs(g:integer);
+      var h:real;
+      begin
+      h:=g*14000;
+              writeln('hasil kurs dolar ke rupiah : Rp. ' ,h:8:2);
+      end;
+
+var dolar:integer;
+
+begin
+      clrscr;
+      writeln('Kurs dollar ke rupiah');
+      write('masukkan angka dollar : $.');readln(dolar);
+      dolarkurs(dolar);
+readln;
+end.s

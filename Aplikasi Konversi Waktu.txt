@@ -1,0 +1,18 @@
+Program Konversi_Waktu; 
+Uses crt; 
+Var jam,menit,detik,hasil:integer;
+ 
+begin 
+ writeln;
+ writeln(' |=================================|');
+ writeln(' |     Konversi Waktu Ke Detik     |'); 
+ writeln(' |=================================|'); 
+ writeln; 
+ write('  Masukkan Jumlah Jam : ');readln(jam); 
+ write('  Masukkan Jumlah Menit : ');readln(menit); 
+ write('  Masukkan Jumlah Detik : ');readln(detik); 
+ writeln; 
+ hasil:=(jam*3600)+(menit*60)+detik; 
+ writeln('  Jadi Hasil Konversi : ',hasil,' Detik'); 
+ readln;
+end.

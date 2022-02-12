@@ -1,0 +1,18 @@
+program prosedure;
+uses crt;
+      procedure konversi(f:integer);
+      var e:real;
+      begin
+      e:=9/5*f+32;
+              writeln('hasil konversi suhu punya kelompok 1 paling ampuh : ' ,e:2:0);
+      end;
+
+var cel:integer;
+
+begin
+      clrscr;
+      writeln('konverai suhu celcius ke fahrenheit by kelompok 1 ');
+      write('masukkan angka suhu celcius guys : ');readln(cel);
+konversi(cel);
+readln;
+end.

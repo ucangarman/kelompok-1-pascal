@@ -1,0 +1,21 @@
+program prosedure;
+uses crt;
+      procedure biodata;
+      begin
+             writeln('+++++++++++++');
+      end;
+
+var ket:string;
+
+begin
+      clrscr;
+      biodata;
+      writeln('----DATA siswa XII TKJ----');
+      write('nama      : ');readln(ket);
+      write('NIS      : ');readln(ket);
+      write('jurusan   : ');readln(ket);
+      write('kelas     : ');readln(ket);
+      write('alamat    : ');readln(ket);
+      biodata;
+readln;
+end.
